@@ -1,0 +1,39 @@
+JSONP.response({
+  responseText: '﻿<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\
+<html>\
+<head>\
+<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\
+<title> Saving archive data </title>\
+<script type=\"text/javascript\">\
+        function isTOCLoaded() {\
+            /* this function for loading the topic within the application if loaded by itself */\
+            /* i.e. open the topic .htm file or as search engines link */\
+            var url = window.location.href;\
+            var baseUrl = url.substring(0, url.lastIndexOf(\"/\") + 1);\
+            var topicFile = url.substring(url.lastIndexOf(\"/\") + 1);\
+            var newUrl = baseUrl + \"index.htm#\" + topicFile;\
+            location.href = newUrl;\
+            return false;\
+        }\
+</script>\
+</head>\
+<body  onload=\"if (isTOCLoaded()) {expand(\'39673\');highlight(\'39529\')}\">\
+<h2 id=\"t39529\" class=\"heading2\">Saving archive data</h2>\
+<p class=\"bodytext\">This procedure describes how to save job log and output archived data to a text file.</p>\
+<p class=\"procedureheading\">To save archive data:</p>\
+<ol class=\"listnumber\"><li class=\"listnumber\">Right-click the service that contains the jobs you want to search for and select <strong class=\"strong\">Browse Jobs</strong>.</li><li class=\"listnumber\">Perform a search, as described in Searching for archive data.</li><li class=\"listnumber\">In the Properties pane, click the <strong class=\"strong\">Log </strong>or <strong class=\"strong\">Output </strong>tab and then click <strong class=\"strong\">Save</strong>.</li><li class=\"listnumber\">Browse to a location where you want to save the archived data, and then click <strong class=\"strong\">Save</strong>.<p class=\"listcontinue\">The archived data is saved in the specified location.</p>\
+</li></ol><table class=\"relatedtopics belowtopictext\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\">\
+<tr valign=\"top\">\
+<td>\
+<h3 class=\"relatedheading\">Parent Topic</h3><p class=\"relateditem\"><a href=\"Jobs_View.htm\" target=\"_self\">Control-M Self Service job management</a></p></td>\
+</tr>\
+</table>\
+\
+\
+<input id=\"topicId\" type=\"hidden\" value=\"39529\" />\
+<input id=\"topicDescription\" type=\"hidden\" value=\"Saving archive data\" />\
+<input id=\"footer-modified\" type=\"hidden\" value=\"Last modified: 4/25/2016 4:53:33 PM\" />\
+</body>\
+</html>\
+'
+});
